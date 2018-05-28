@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+html {
+    font-family: 'Lobster', cursive;
+}
+
+h1, h2 {
+    color: red;
+}
+
+#choosen {
+    color: red;
+}
+
+.selected {
+    color: violet
+}
+
+div > p {
+    color: yellow
+}
+
+div ~ p {
+    color: blue;
+}
+
+p[classes] {
+    border:1px solid black;
+}
+
+p:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+p::first-letter {
+    font-size: 2rem;
+}
+
+p::before {
+    content: '☺ ';
+}
